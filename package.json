@@ -1,0 +1,17 @@
+{
+  "name": "cypress-simple-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run --browser chrome --headed",
+    "sauce": "saucectl run -c ./.sauce/config.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
